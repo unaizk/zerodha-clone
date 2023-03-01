@@ -1,0 +1,455 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: inter;
+    width: 100%;
+    font-size: 14px;
+    height: 15px;
+    margin: none;
+    color: rgb(66,66,66);
+
+
+   
+}
+.container{
+    display: flex;
+    display: block;
+    border-bottom: 1px solid  rgb(240, 223, 223);
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+
+}
+
+.logo-zerodha{
+    width: 130px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-links{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: right;
+    gap: 35px; 
+}
+a{
+    text-decoration: none;
+    color: rgb(102,102,102);
+}
+.landing-photo{
+width: 400px; 
+padding-top: 100px;
+display: flex;
+margin: 0 auto;
+}
+
+
+.main-text{
+    align-self: center;
+    display: flex;
+  
+    display: inline-block;
+    font-size: 44px;
+    color: rgb(66,66,66);
+    margin-top: 70px;
+   
+    font-weight: 590;
+
+    
+    
+}
+.no-one-broker{
+
+    margin: 0 auto;
+    text-align: center;
+}
+.sub-text{
+    
+    color: rgb(66,66,66);
+    display: block;
+    font-weight: 400;
+    line-height: 34px;
+    margin-block-end: 20px;
+    margin-block-start: 10px;
+    font-size: 20px;
+
+
+}
+.button{
+    background-color: rgb(56,126,209);
+    border-bottom-color: rgba(0,0,0,0);
+    border-bottom-style: solid;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 25px;
+
+}
+.button:hover{
+    background-color: black;
+}
+.sub-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.block1-element{
+    display: inline-block;
+    margin-top: 35px;
+    padding-left: 20px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.block2-element{
+    display: inline-block;
+    margin-top: 35px;
+    line-height: 30px;
+    font-size: 17px;
+    padding-left: 70px;
+}
+.first-block{
+    display: inline-block;
+}
+.second-block{
+    display: inline-block;
+}
+p{
+    width: 550px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    padding-left: 2px;
+}
+.cup{
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+.heading-container{
+    margin-top: 130px;
+    margin-left: 150px;
+}
+.heading{
+    font-size: 33.5px;
+    
+    color: rgb(66,66,66);
+    display: block;
+    font-weight: 599;
+    line-height: 48px;
+
+
+}
+.press{
+    width: 550px;
+    margin-top: 35px;
+    padding-left: 3px;
+}
+.zerodha-universe-container{
+    text-align: center;
+    width: 100%;
+    
+}
+.ecosystem{
+padding-left: 205px;
+width: 1100px;
+
+}
+.zerodha-text{
+    margin-top: 150px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5px;
+}
+.zerodha-sub-text{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.explore{
+    margin: 0 auto;
+    color: rgb(56,126,209);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    display: inline-block;
+   
+}
+.icon{
+    width: 15px;
+   
+}
+.hi{
+    width: 100%;
+   
+   
+}
+.arrow{
+    color: rgb(56,126,209);
+    
+
+}
+.explore:hover{
+    color: black;
+}
+.pricing-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+
+    
+}
+.interest{
+    display: flex;
+    border: 1px solid rgb(232, 227, 227);
+    border-radius: 6px;
+    margin-right: 250px;
+    
+}
+.mutual-fund{
+    display: inline-block;
+    width: 250px;
+    border-right: 2px solid rgb(232, 227, 227);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.mutual-fund-text{
+    display: inline-block;
+    width: 200px;
+    font-size: 16px;
+
+    
+    
+}
+.intraday{
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 250px;
+    
+}
+.intraday-text{
+    display: inline-block;
+    width: 200px;
+    font-size: 16px;
+}
+.zero,.twenty{
+    font-size: 40px;
+    
+}
+.pricing-text-head{
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.see-pricing{
+   
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 16px;
+    color: rgb(56,126,209);
+    display: flex;
+    text-align: center;
+    font-weight: 590;
+    
+}
+.pricing-text{
+    margin-left: 250px;
+    
+}
+.icon{
+    width: 20px;
+    display: inline-block;
+}
+.pricing-subtext{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    width: 500px;
+}
+.see-pricing:hover{
+    color: black;
+}
+
+.varsity-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.file-image{
+    width: 450px;
+    margin-left: 100px;
+}
+.varsity-text{
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40.8px;
+
+}
+.varsity-subtext{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+
+}
+.varsity-icon{
+    font-size: 16px;
+    color: rgb(56,126,209);
+    font-weight: 590;
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+}
+.para{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    width: 520px;
+
+}
+.trading-icon{
+    font-size: 16px;
+    color: rgb(56,126,209);
+    font-weight: 590;
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    display: inline-block;
+   
+}
+.trading-icon:hover{
+    color: black;
+}
+.varsity-icon:hover{
+    color: black;
+}
+.varsity-text-container{
+    margin-right: 100px;
+}
+.varsity-image{
+    margin-top: -30px;
+}
+.account-div{
+    display: flex;
+    justify-content: center;
+}
+.account-para-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.signup-div{
+    display: flex;
+    justify-content: center;
+}
+.account-para{
+    width: 100%;
+}
+.account-text{
+    margin-top: 90px;
+}
+.account-text-head{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+
+}
+.account-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: rgb(66,66,66);
+}
+.zerodha-footer{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(238,238,238);
+    padding-top: 40px;
+    align-self: flex-start;
+
+}
+.foot-logo{
+    width: 150px;
+}
+.copyright{
+    width: 240px;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 23.04px;
+    margin-top: 20px;
+
+}
+.about-zerodha{
+    background-color: rgb(250,250,251);
+    margin-top: 90px;
+}
+.twitter,.instagram,.linkdn,.telegram,.facebook{
+    width: 20px;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 30px;
+    
+
+}
+.list-style{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    list-style-type: none;
+
+}
+.nav-head{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+
+}
+.box1{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+.box4{
+    margin-right: 190px;
+}
+
